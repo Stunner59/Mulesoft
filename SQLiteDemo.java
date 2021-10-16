@@ -20,7 +20,7 @@ public class SQLiteDemo {
 			ps.setInt(4, 2012);
 			ps.setString(5, "RK");
 			
-			
+			ps.execute();
 			
 			String sql = "SELECT * FROM movie";
 			
